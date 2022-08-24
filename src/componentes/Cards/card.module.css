@@ -1,0 +1,143 @@
+/* ---------------------- Card ----------------------  */
+
+.contenedor {
+  /* width: 100%; */
+  /* height: 220px; */
+  /* background-color: blue; */
+  
+  
+  display: flex;
+  /* flex-flow: row wrap; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  height: 180px;
+  background-color: rgba(211, 211, 211, 0.5);
+
+  border: 1px solid #537fb5;
+  border-radius: 20px;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  /* align-items: center; */
+  
+}
+
+.contenedorCerrar {
+  /* background-color: rgb(137, 173, 181); */
+  display: flex;
+  flex-direction: row-reverse;
+  /* flex-grow: 150px; */
+  flex-basis: 100%;
+  
+}
+
+.cerrar {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: solid 2.5px rgb(206, 67, 67);
+  width: 30px;
+
+  border-radius: 8px;
+  
+  color: rgb(206, 67, 67);
+  font-weight: bolder;
+
+  margin: 10px;
+  margin-right: 15px;
+  font-size: small;
+}
+
+.cerrar:hover {
+  border: solid 2.5px rgb(81, 67, 206);
+  color: rgb(81, 67, 206);
+}
+
+
+.ciudad {
+  /* text-align: center; */
+  width: 100%;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-grow: 150px; */
+  margin-top: 6px;
+  
+  /* flex-basis: 100%; */
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link h4 {
+  font-weight:bolder;
+}
+
+#e1 {
+  font-size: larger;
+}
+
+.contenedorClima {
+  /* background-color: darkgoldenrod; */
+  /* margin: 5px; */
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.min {
+  /* background-color: blue; */
+  width: 20%;
+}
+
+.max {
+  /* background-color: blueviolet; */
+  width: 20%;
+}
+
+.img {
+  /* background-color: red; */
+  width: 30%;
+}
+
+#img {
+  width: 100%;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+
+}
+
+
+/* --------------------- Cards ---------------------  */
+
+.contenedorCards {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  
+  
+  display: flex;
+  flex-flow: row wrap;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+

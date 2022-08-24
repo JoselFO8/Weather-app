@@ -1,0 +1,24 @@
+.ciudad {
+    /* background-color: blue; */
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    background-color: rgba(235, 235, 235, 0.842);
+    box-shadow: 6px 6px 6px lightslategrey;
+    width: 50%;
+}
+
+.titulo {
+    text-align: center;
+    margin: 8px;
+}
+
+.texto {
+    text-align: start;
+    margin: 15px;
+}

@@ -1,0 +1,13 @@
+.footer {
+    background-color: black;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    text-decoration-color: none;
+    color: white;
+}
